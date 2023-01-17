@@ -14,7 +14,7 @@ export default function useForm(initialState) {
         // Hacer algo con los datos del formulario, por ejemplo, enviarlos al servidor
         const dataInfo = Object.values(formData)
         if(dataInfo.includes('')) {
-            alert('Completa todos los campos para mayor presicion')
+            alert('Complete all fields for more precision')
             return
         }
         console.log(dataInfo);

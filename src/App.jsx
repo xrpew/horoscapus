@@ -26,7 +26,7 @@ export function App() {
         <form onSubmit={handleFormSubmit}>
             <label>
                 Name:
-                <hr />
+                <br />
                 <input
                     type="text"
                     name="name"
@@ -37,7 +37,7 @@ export function App() {
             </label>
             <label>
                 Email:
-                <hr />
+                <br />
                 <input
                     type="email"
                     placeholder='example@mail.com'
@@ -48,7 +48,7 @@ export function App() {
             </label>
             <label>
                 Zodiac sign:
-                <hr />
+                <br />
                 <select
                     name="zodiac"
                     value={formData.zodiac}
@@ -65,7 +65,7 @@ export function App() {
             </label>
             <label>
                 Message:
-                <hr />
+                <br />
                 <textarea
                     name="message"
                     placeholder='Ask something to the fortune'
