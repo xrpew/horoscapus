@@ -67,7 +67,7 @@ export const usabilidades = (data, dataAdd) => {
         <button onclick="location.reload()"> Thanks for that ..  </button>
         
         </div>
-
+        <div class='author-name' style="margin-top: 8px">do it by xerpew</div>
         <style> .color {background-color: ${colorificado} </style>
 
         `;
