@@ -18,10 +18,10 @@ export const usabilidades = ( data, dataAdd ) => {
         }else if(coloresAvaliables.includes(colorNew[0])){
             colorificado = colorNew[0]
         }else if(coloresAvaliables.includes(colorNew[1])){
-            colorificado = colorNew[0]
+            colorificado = colorNew[1]
         }else{
-            colorificado= 'black'
-            // colorificado= 'rgba(0, 0, 0, 0.377)'
+            // colorificado= 'black'
+            colorificado= 'rgba(0, 0, 0, 0.377)'
         }
 
         roote.innerHTML= `
