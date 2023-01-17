@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background:url('src/assets/bg.jpg');
+    
+}
+form{
+    background-color: rgba(0, 0, 0, 0.377);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding: 24px;
+}
+
+.box_information{
+    display: flex;
+    width: 60vw;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.box_information h1{
+    color: white;
+    /* font-size: 40px; */
+}
+
+
+input, select{
+    color: black;
+    font-weight: bold;
+    background-color: wheat;
+    width: 250px;
+    height: 32px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea{
+    margin-top: 4px;
+    width: 300px;
+    height: 80px;
+    font-weight: bold;
+    background-color: wheat;
+    padding: 8px;
+    border-radius: 5px;
+
+
+}
+label{
+    margin-bottom: 12px;
+}
+
+button{
+    width: 250px;
+    height: 32px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.box_information{
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.color{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid grey;
+    justify-self: center;
+    align-self: center;
+    /* background-color: red; */
+}
