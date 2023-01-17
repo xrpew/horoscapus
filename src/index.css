@@ -40,22 +40,25 @@ form{
     text-align: center;
     padding: 24px;
     border-radius: 15px;
-    position: fixed;
+    /* position: fixed; */
 }
 
 .box_information{
+    margin-top: 40vw;
     display: flex;
     width: 60vw;
     flex-direction: column;
     gap: 8px;
-    color: white;
+    color: var(--white-cool);
     font-size: 20px;
     text-align: center;
-    
+    background-color: var(--background-cases);
+    border-radius: 15px;
+    padding: 20px;  
+    font-family: 'Righteous', cursive;
 }
 .box_information h1{
     color: white;
-    /* font-size: 40px; */
 }
 
 
@@ -106,13 +109,7 @@ button:hover{
     box-shadow: 0px 0px 10px 3px black;
     animation: tembloroso .5s infinite;
 }
-.box_information{
-    background-color: var(--background-cases);
-    border-radius: 15px;
-    padding: 20px;  
-    color: var(--white-cool);
-    font-family: 'Righteous', cursive;
-}
+
 
 .color{
     width: 50px;
