@@ -125,7 +125,5 @@ button{
     .box_information{
         width: 90vw;
         justify-content: center;
-        /* border: 1px solid red; */
-        margin-top: 30vw;
     }
 }
