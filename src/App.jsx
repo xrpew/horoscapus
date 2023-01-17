@@ -1,5 +1,4 @@
 import useForm from './hooks/useForm';
-import { FirstApp } from './components/FirstApp';
 
 const zodiacSigns = [
     { value: 'aries', label: 'Aries' },
@@ -23,7 +22,7 @@ export function App() {
     return (
 
         <>
-        {/* <FirstApp/> */}
+        <div className='background1'></div>
         <form onSubmit={handleFormSubmit}>
             <label>
                 Name:
@@ -31,6 +30,7 @@ export function App() {
                 <input
                     type="text"
                     name="name"
+                    placeholder='Jhon Doe'
                     value={formData.name}
                     onChange={handleInputChange}
                     />
@@ -40,6 +40,7 @@ export function App() {
                 <hr />
                 <input
                     type="email"
+                    placeholder='example@mail.com'
                     name="email"
                     value={formData.email}
                     onChange={handleInputChange}
@@ -67,6 +68,7 @@ export function App() {
                 <hr />
                 <textarea
                     name="message"
+                    placeholder='Ask something to the fortune'
                     value={formData.message}
                     onChange={handleInputChange}
                     />

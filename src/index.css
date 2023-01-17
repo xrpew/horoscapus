@@ -13,11 +13,13 @@
     justify-content: center;
 }
 body{
-    background:url('./assets/astrologia.png') no-repeat center;
-
+    /* background:url('./assets/astrologia.png') no-repeat center; */
+    background-color: rgba(81, 73, 102, 0.849);
+    display: flex;
+    flex-direction: column;
 }
 form{
-    background-color: rgba(0, 0, 0, 0.377);
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -26,6 +28,7 @@ form{
     text-align: center;
     padding: 24px;
     border-radius: 15px;
+    position: fixed;
 }
 
 .box_information{
@@ -80,9 +83,9 @@ button{
 }
 
 .box_information{
-    background-color: rgba(0, 0, 0, 0.555);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 15px;
-    padding: 20px;
+    padding: 20px;  
 }
 
 .color{
@@ -92,5 +95,37 @@ button{
     border: 3px solid grey;
     justify-self: center;
     align-self: center;
-    /* background-color: red; */
+}
+.background1{
+    background: url('./assets/astrologia.png');
+    width: 512px;
+    animation: rotationall 10s infinite;
+    position: fixed;
+    justify-self: center;
+    align-self: center; 
+    z-index: -1;
+    height: 512px;
+    
+}
+
+@keyframes rotationall {
+    0%{
+        transform: rotateY(0deg);
+    }
+    50%{
+        transform: rotateY(360deg);
+    }
+    100%{
+        transform: rotateY(0deg);
+    }
+}
+
+@media (max-width:1500px) {
+
+    .box_information{
+        width: 90vw;
+        justify-content: center;
+        /* border: 1px solid red; */
+        margin-top: 30vw;
+    }
 }
