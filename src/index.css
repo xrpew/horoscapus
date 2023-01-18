@@ -167,7 +167,7 @@ button:hover{
     }
 }
 
-@media (max-width:1500px) {
+@media (max-width:870px) {
 
     .box_information{
         width: 90vw;
